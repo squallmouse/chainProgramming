@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UIImageView+test.h"
+#import "Dog.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
+    Dog *dog = [Dog new];
+    dog.eat.eat;
+    dog.eat.sleep(100).walk(@"美食街",@"小湖边");
+    dog.haha().haha();
 }
 
 

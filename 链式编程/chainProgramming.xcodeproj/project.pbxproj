@@ -13,7 +13,8 @@
 		EF598F8D2025B97900371A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF598F8C2025B97900371A64 /* Assets.xcassets */; };
 		EF598F902025B97900371A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF598F8E2025B97900371A64 /* LaunchScreen.storyboard */; };
 		EF598F932025B97900371A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF598F922025B97900371A64 /* main.m */; };
-		EF598F9B2025BA1900371A64 /* UIImageView+test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF598F9A2025BA1900371A64 /* UIImageView+test.m */; };
+		EF598F9E2025C2BC00371A64 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EF598F9D2025C2BC00371A64 /* Dog.m */; };
+		EF598FA420262D8600371A64 /* UIImageView+test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF598FA220262D8600371A64 /* UIImageView+test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,10 @@
 		EF598F8F2025B97900371A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF598F912025B97900371A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF598F922025B97900371A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF598F992025BA1900371A64 /* UIImageView+test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+test.h"; sourceTree = "<group>"; };
-		EF598F9A2025BA1900371A64 /* UIImageView+test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+test.m"; sourceTree = "<group>"; };
+		EF598F9C2025C2BC00371A64 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		EF598F9D2025C2BC00371A64 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		EF598FA220262D8600371A64 /* UIImageView+test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+test.m"; sourceTree = "<group>"; };
+		EF598FA320262D8600371A64 /* UIImageView+test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+test.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +68,10 @@
 				EF598F842025B97900371A64 /* AppDelegate.m */,
 				EF598F862025B97900371A64 /* ViewController.h */,
 				EF598F872025B97900371A64 /* ViewController.m */,
-				EF598F992025BA1900371A64 /* UIImageView+test.h */,
-				EF598F9A2025BA1900371A64 /* UIImageView+test.m */,
+				EF598F9C2025C2BC00371A64 /* Dog.h */,
+				EF598F9D2025C2BC00371A64 /* Dog.m */,
+				EF598FA320262D8600371A64 /* UIImageView+test.h */,
+				EF598FA220262D8600371A64 /* UIImageView+test.m */,
 				EF598F892025B97900371A64 /* Main.storyboard */,
 				EF598F8C2025B97900371A64 /* Assets.xcassets */,
 				EF598F8E2025B97900371A64 /* LaunchScreen.storyboard */,
@@ -147,9 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF598F9B2025BA1900371A64 /* UIImageView+test.m in Sources */,
 				EF598F882025B97900371A64 /* ViewController.m in Sources */,
+				EF598F9E2025C2BC00371A64 /* Dog.m in Sources */,
 				EF598F932025B97900371A64 /* main.m in Sources */,
+				EF598FA420262D8600371A64 /* UIImageView+test.m in Sources */,
 				EF598F852025B97900371A64 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
